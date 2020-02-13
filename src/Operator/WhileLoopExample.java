@@ -1,0 +1,14 @@
+package Operator;
+
+public class WhileLoopExample {
+
+	public static void main(String[] args) {
+		int a=1;
+		while(a<=10) {
+			System.out.println(a+"my name is ram");
+			a++;
+		}
+
+	}
+
+}
