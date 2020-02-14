@@ -23,8 +23,8 @@ public class Animal {
 		animal.age=3;
 		animal.color="black";
 		animal.display(animal);
-//		Animal Animal=new Animal("dog",3,"black");
-//		animal.display(animal);
+		Animal animal1=new Animal("dog",3,"black");
+		animal.display(animal);
 //		
 	}
 
