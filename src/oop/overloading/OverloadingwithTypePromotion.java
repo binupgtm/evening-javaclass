@@ -1,0 +1,19 @@
+package oop.overloading;
+
+public class OverloadingwithTypePromotion {
+	
+	void sum(int a,long b) {
+		System.out.println(a+b);
+	}
+	void sum(double a, int b,int c) {
+		System.out.println(a+b+c);
+	}
+
+	public static void main(String[] args) {
+		OverloadingwithTypePromotion over =new OverloadingwithTypePromotion();
+		over.sum(2, 5);
+		over.sum(15, 20, 25);
+		
+	}
+
+}
