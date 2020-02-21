@@ -1,4 +1,4 @@
-package control;
+package aggregation;
 
 public class Employee {
 	int id;

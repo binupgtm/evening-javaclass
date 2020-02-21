@@ -1,4 +1,4 @@
-package control;
+package aggregation;
 
 public class Address {
 	String city, state, country;
