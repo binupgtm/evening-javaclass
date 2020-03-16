@@ -37,7 +37,7 @@ public class CalculatorUsingSwitchExample {
 		System.out.println("invalid input ");
 		return;
 			}
-		System.out.println(num1+" "+operator+" "+num2+":" +output);
+		System.out.println(num1+" "+operator+" "+num2+ " = " +output);
 	}
 
 }

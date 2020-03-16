@@ -1,19 +1,25 @@
 package SuperKeywordExample;
 
-	public class Vehicle {
+	class Vehicle {
+		int a=10;
 		  Vehicle(){
 			System.out.println("Vehicle is created");
 		}
 	}
-	class Car extends Vehicle{
+	public class Car extends Vehicle{
+		int a=15;
 		Car(){
-			super();
+//			super();
 			System.out.println("Car is created");
+		}
+	public void display() {
+			System.out.println(super.a);
 		}
 
 	public static void main(String[] args) {
 		Car c = new Car();
-		
+		System.out.println(c.a);
+		c.display();
 		
 
 	}

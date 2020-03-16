@@ -1,4 +1,4 @@
-package Inheritanceexample;
+package InheritanceExample;
 
 public class EmployeExample {
 	float salary=10000;

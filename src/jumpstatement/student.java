@@ -1,12 +1,12 @@
 package jumpstatement;
 
-public class student {
+public class Student {
 String name;
 int roll;
 String faculty;
 	public static void main(String []args) {
-		student student=new student();
-		student student1=new student();
+		Student student=new Student();
+		Student student1=new Student();
 		
 		int [] roll=new int[40];
 		roll[0]=5;
@@ -14,7 +14,7 @@ String faculty;
 		roll[2]=54;
 //		System.out.println(roll.length;i++);
 		for(int i=0;i<roll.length;i++) {
-			System.out.println(roll[i]);
+			System.out.println(roll[1]);
 		}
 		
 	}

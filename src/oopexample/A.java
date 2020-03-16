@@ -11,7 +11,7 @@ class B {
 public class A extends B{
 		String name;
 
-	void displey() {
+	void display() {
 		System.out.println("this is from class A");
 	}
 	void displayResult() {
@@ -19,7 +19,7 @@ public class A extends B{
 	}
 	public static void main(String []args) {
 		A a=new A();
-		a.displey();
+		a.display();
 		a.displayB();
 		a.roll=5;
 		a.name="ram";

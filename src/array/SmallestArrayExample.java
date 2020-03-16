@@ -8,8 +8,7 @@ public class SmallestArrayExample {
 		
 		for (int i=0; i<a.length;i++) {
 			if(a[i]<small) {
-				small=a[i];
-				
+				small=a[i];	
 			
 		}
 						
